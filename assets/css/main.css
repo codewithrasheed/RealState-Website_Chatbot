@@ -1703,6 +1703,23 @@ section,
   color: var(--accent-color);
 }
 
+@media screen and (max-width: 1440px) {
+  .maintext h2{
+    margin-top: 50px;
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .maintext h2{
+    margin-top: 30px;
+    font-size: 30px;
+  }
+  .maintext p{
+    font-size: 16px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
